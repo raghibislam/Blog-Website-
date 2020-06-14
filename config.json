@@ -1,0 +1,16 @@
+{
+    "params": {
+        "local_server": "True",
+        "local_uri": "mysql://user:12345@localhost/prakashblog",
+        "production_uri": "mysql://user:12345@localhost/prakashblog",
+        "fb_url": "https://www.facebook.com/prak3322/",
+        "tw_url": "",
+        "github_url": "",
+        "blog_name": "",
+        "blog_title": "",
+        "gmail_user": "your-email",
+        "gmail_pass": "password",
+        "about_me": "hi iam prakash you know my name right",
+        "no_of_posts": 3
+    }
+}
