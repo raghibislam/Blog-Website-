@@ -13,6 +13,7 @@
         "about_me": "hi iam prakash you know my name right",
         "no_of_posts": 3,
         "admin_user": "admin",
-        "admin_pass": "admin"
+        "admin_pass": "admin",
+        "upload_location": "C:\\Users\\user\\Desktop\\Flask research\\Flask-tut\\static"
     }
 }
