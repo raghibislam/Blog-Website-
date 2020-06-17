@@ -2,13 +2,13 @@
 {% block body %}
 
 <!-- Page Header -->
-<header class="masthead" style="background-image: url({{url_for('static',filename='img/home-bg.jpg')}})">
+<header class="masthead" style="background-image: url({{url_for('static',filename='img/StockSnap_04HR3ASS4J.jpg')}})">
   <div class="overlay"></div>
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-md-10 mx-auto">
         <div class="site-heading">
-          <h1>Clean Blog</h1>
+          <h1>Hi !</h1>
           <span class="subheading">A Blog From Prakash</span>
         </div>
       </div>
@@ -43,9 +43,9 @@
       <!-- Pager -->
       <div class="clearfix">
       {% if number!=0 %}
-      <a class="btn btn-primary float-left" href="#">&larr; Newer Posts</a>
+      <a class="btn btn-primary float-left" href="{{prev}}">&larr; Newer Posts</a>
       {% endif %}
-        <a class="btn btn-primary float-right" href="#">Older Posts &rarr;</a>
+        <a class="btn btn-primary float-right" href="{{next}}">Older Posts &rarr;</a>
       </div>
     </div>
   </div>
